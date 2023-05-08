@@ -1,0 +1,23 @@
+body{
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+button {
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    padding: 10px 0px 10px 20px;
+    cursor: pointer;
+    background-color: antiquewhite;
+  }
+  button span{
+    color:#fff;
+    padding:10px;
+    margin-right: -0.5px;
+  }
+  
+  button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+  }
